@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/chart.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" wow fadeIn">
+
+
+	<header>
+		<div class="container-fluid">
+			<div class="row ">
+				<div class="col-lg-12">
+					<div class="header-wrapper">
+						<h1 class="header">
+							<span class="logo">LR</span>
+							Live Report
+						</h1>
+						<input type="date" name="" value="2021-03-11" class="form-control select-date">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section>
+		<article>
+			<div class="container-fluid">
+				<div class="row ">
+					<div class="col-lg-4 col-md-12 left-section">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="white-box">
+									<h1 class="heading">Performance Tracker</h1>
+
+									<div>
+										<div class="mt-4">
+											<small class="text-blue">Total visits across India</small>
+											<small class="text-light float-right">5000</small>
+										</div>
+										<div class="progress mt-1">
+										  <div class="progress-bar bg-blue" role="progressbar" style="width: 75%" aria-valuenow="4100" aria-valuemin="0" aria-valuemax="5000"></div>
+										</div>
+									</div>
+
+									<div>
+										<div class="mt-4">
+											<small class="text-blue">Total orders received</small>
+											<small class="text-light float-right">1250</small>
+										</div>
+										<div class="progress mt-1">
+										  <div class="progress-bar bg-blue" role="progressbar" style="width: 56%" aria-valuenow="700" aria-valuemin="0" aria-valuemax="1250"></div>
+										</div>
+									</div>
+
+									<div>
+										<div class="mt-4">
+											<small class="text-blue">Conversions</small>
+											<small class="text-light float-right">25%</small>
+										</div>
+										<div class="progress mt-1">
+										  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-6">
+								<div class="white-box">
+									<div class="row pt-2 pb-2">
+										<div class="col-4">
+											<div class="box-img">
+												<img src="img/user.png" class="w-100">
+											</div>
+										</div>
+										<div class="col-8">
+											<h1 class="sub-heading mb-0 mt-3">Survey Clicks</h1>
+											<p class="count mb-0">5872</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-6">
+								<div class="white-box">
+									<div class="row pt-2 pb-2">
+										<div class="col-4">
+											<div class="box-img">
+												<img src="img/user.png" class="w-100">
+											</div>
+										</div>
+										<div class="col-8">
+											<h1 class="sub-heading mb-0 mt-3">Order Count <span class="text-primary">( 22.17% )</span></h1>
+											<p class="count mb-0">1302</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8 right-section">
+						<div class="row ">
+							<div class="col-lg-12">
+								<div class="white-box">
+									<h1 class="heading">Performance</h1>
+									<canvas id="canvas" style="width: 100%; height: 250px;"></canvas>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="white-box mb-3">
+									<h1 class="heading">Top Performer Across India</h1>
+									<div class="table-responsive">
+										<table class="table table-bordered performance-table mb-0">
+											<thead>
+												<tr>
+													<th rowspan="2">Surveyor Full Name</th>
+													<th rowspan="2">City</th>
+													<th rowspan="2">Total Calls</th>
+													<th rowspan="2">Effective Calls</th>
+													<th colspan="5">Total Orders</th>
+													<th rowspan="2">Total</th>
+												</tr>
+												<tr>
+													<th>New</th>
+													<th>Replace DB</th>
+													<th>With DB</th>
+													<th>Replace Other</th>
+													<th>With Other</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Satya Narayan</td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya </td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya Narayan</td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya Narayan</td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya</td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya Narayan</td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+												<tr>
+													<td>Satya </td>
+													<td>Bhopal</td>
+													<td>29</td>
+													<td>21</td>
+													<td></td>
+													<td></td>
+													<td>13</td>
+													<td></td>
+													<td>8</td>
+													<td>21</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<footer>
+		
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/chart.min.js"></script>
+
+	<script>
+		var barChartData = {
+		  labels: [
+		    "6 Feb",
+		    "13 Feb",
+		    "20 Feb",
+		    "27 Feb",
+		    "6 Mar",
+		    "13 Mar",
+		    "20 Mar",
+		  ],
+		  datasets: [
+		    {
+		      label: "Calls",
+		      backgroundColor: "#1E4E87",
+		      data: [3, 5, 6, 7,3, 5, 6, 7]
+		    },
+		    {
+		      label: "New Orders",
+		      backgroundColor: "#3a94ff",
+		      data: [4, 7, 3, 6, 10,7,4,6]
+		    },
+		    {
+		      label: "DB Conversion",
+		      backgroundColor: "#ffd60d",
+		      data: [10,7,4,6,9,7,3,10]
+		    }
+		  ]
+		};
+
+		var chartOptions = {
+		  responsive: false,
+		  maintainAspectRatio: false,
+		  legend: {
+		    position: "top"
+		  },
+		  // title: {
+		  //   display: true,
+		  //   text: "Chart.js Bar Chart"
+		  // },
+		  scales: {
+		    yAxes: [{
+		      ticks: {
+		        beginAtZero: true
+		      }
+		    }]
+		  }
+		}
+
+		window.onload = function() {
+		  var ctx = document.getElementById("canvas").getContext("2d");
+		  // ctx.height = 400;
+		  window.myBar = new Chart(ctx, {
+		    type: "bar",
+		    data: barChartData,
+		    options: chartOptions
+		  });
+		};
+
+	</script>
+</body>
+</html>
